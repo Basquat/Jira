@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Quadros kanban para o seu time: privados, compartilhados por link e integrados ao Claude.">
+<meta name="theme-color" content="#0c66e4">
+<title>Kanban</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%230c66e4'/%3E%3Crect x='7' y='8' width='5' height='16' rx='1.5' fill='white'/%3E%3Crect x='13.5' y='8' width='5' height='11' rx='1.5' fill='white'/%3E%3Crect x='20' y='8' width='5' height='7' rx='1.5' fill='white'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="style.css">
+<script>/* tema antes de pintar, sem piscar */ try { var t = localStorage.getItem('theme') || 'auto'; document.documentElement.dataset.theme = t === 'auto' ? (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : t } catch (e) {}</script>
+</head>
+<body>
+<header id="top" hidden></header>
+<main id="app"></main>
+<div id="toasts" popover="manual" aria-live="polite"></div>
+<script type="module" src="app.js"></script>
+</body>
+</html>
