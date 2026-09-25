@@ -3,8 +3,8 @@ import Sortable from 'https://cdn.jsdelivr.net/npm/sortablejs@1.15.7/+esm'
 
 // Preencha com o seu projeto Supabase (Project Settings → API). A chave anon/publishable é pública por design:
 // quem protege os dados são as regras RLS do schema.sql.
-const SUPABASE_URL = 'https://SEU-PROJETO.supabase.co'
-const SUPABASE_KEY = 'SUA-CHAVE-ANON-OU-PUBLISHABLE'
+const SUPABASE_URL = 'https://mnhkceiogpsrinttzypt.supabase.co'
+const SUPABASE_KEY = 'sb_publishable_W36QruUr0w63fu29G2TcRg_n-CEpsSm'
 
 const sb = createClient(SUPABASE_URL, SUPABASE_KEY)
 
